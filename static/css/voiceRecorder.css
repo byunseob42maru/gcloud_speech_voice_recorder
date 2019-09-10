@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+#title {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.mic_btn {
+    border-radius: 50%;
+    background-color: white;
+    border-color: black;
+}
+
+#show_rec_status {
+    color: red;
+    font-family: 'Roboto Slab', serif;
+}
+
+.top_line {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.console {
+    border: none;
+    height: 3px;
+    background-color: #BDBDBD;
+    margin: 0;
+}
+
+div#select_format * {
+    font-family: 'Roboto Slab', serif;
+    display: inline;
+}
+
+.caption {
+    background-color: #4C4C4C;
+    height: 50vh;
+}
+
+div.caption h3 {
+    padding: 10px;
+}
+
+a#save {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+}
+
+#p_caption {
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+}
